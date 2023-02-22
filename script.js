@@ -1,10 +1,3 @@
-if ((window.innerWidth <= 900) || (window.innerHeight <= 600)) {
-
-    window.alert('O site deve ser acesso por um computador')
-    document.querySelector('body').innerHTML = 'Acessa pelo PC!!'
-}
-
-
 const btnSim = document.querySelector('.sim')
 const btnSimA = document.querySelector('a .sim')
 const btnNao = document.querySelector('.nao')
