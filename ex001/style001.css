@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(105, 105, 173);
+    color: white;
+    font: normal 20pt Arial;
+}
+
+h1 {
+    color: rgb(255, 212, 22);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border-radius: 50px;
+    background-color: rgb(255, 212, 22);
+    color: rgb(105, 105, 173);
+    padding: 8px;
+    border: solid 2px white;
+}
+
+button:hover {
+    transition: 0.25s;
+    color: white;
+    border: solid 2px rgb(105, 105, 173);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(105, 105, 173);
+}
+
+.prox {
+    color: white;
+    display: none;
+}
+
+.voltar {
+    color: white;
+    display: none;
+}

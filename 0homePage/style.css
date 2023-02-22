@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(105, 105, 173);
+    color: white;
+    font: normal 20pt Arial;
+}
+
+h1 {
+    color: rgb(255, 212, 22);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    border-radius: 50px;
+    background-color: rgb(255, 212, 22);
+    color: rgb(105, 105, 173);
+    padding: 8px;
+    border: solid 2px white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: 0.25s;
+    color: white;
+    border: solid 2px rgb(105, 105, 173);
+}
+
+.sim:hover {
+    padding: 0.5rem 2.5rem;
+    transition: 0.25s;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(105, 105, 173);
+}
+
+.nao:hover {
+    animation: deny 0.25s;
+}
