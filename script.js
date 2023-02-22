@@ -1,4 +1,4 @@
-if ((window.innerWidth <= 600) || (window.innerHeight <= 800)) {
+if ((window.innerWidth <= 900) || (window.innerHeight <= 600)) {
 
     window.alert('O site deve ser acesso por um computador')
     document.querySelector('body').innerHTML = 'Acessa pelo PC!!'
