@@ -7,7 +7,10 @@ if (confirmar) {
     document.querySelector('.prox').style.display = "inline-block"
     document.querySelector('.voltar').style.display = "inline-block"
 } else {
+
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
     window.alert('poxa =c')
     document.getElementById('title').innerHTML = "Sinto muito..."
     document.querySelector(".livre").innerHTML = "Espero que volte ^^"
+    document.querySelector('.voltar').style.display = "inline-block"
 }

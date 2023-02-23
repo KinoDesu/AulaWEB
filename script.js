@@ -4,7 +4,7 @@ const btnNao = document.querySelector('.nao')
 
 btnSim.onmouseover = function () { mouseOverSim() }
 btnSim.onmouseout = function () { mouseOutSim() }
-btnNao.onmouseover = function () { mouverOverNao() }
+btnNao.onmousedown = function () { mouverOverNao() }
 
 function mouseOverSim() {
     btnSimA.innerHTML = "Bora lá!"
